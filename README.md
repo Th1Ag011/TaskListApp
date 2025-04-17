@@ -105,4 +105,11 @@ Com todos os contêineres rodando, abra o navegador e acesse:
 
 `http://localhost:4200`
 
+---
 
+Atenção: 
+caso ocorra erro relacionado ao host do banco de dados, edite a string de conexão DefaultConnection no arquivo appsettings.json. 
+Altere o valor de Host=... conforme o ambiente:
+
+Use Host=localhost se estiver executando o projeto localmente, com o PostgreSQL instalado na sua máquina.
+Use Host=postgres-tasklist se estiver rodando o projeto via Docker, pois postgres-tasklist é o nome do container do banco de dados definido no docker.
