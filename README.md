@@ -53,7 +53,7 @@ Agora, vamos compilar e publicar a API com o perfil de container Docker.
 ### 2.1 Acesse a pasta onde está o projeto da API:
 `cd TaskListApp.Api` 
 
-### 2.2 Entre na subpasta onde está o arquivo .csproj da API:
+### 2.2 Entre na subpasta onde está o .csproj da API:
 `cd TaskListApp`
 
 ### 2.3 Gere a imagem Docker do back-end
@@ -64,16 +64,20 @@ Agora, vamos compilar e publicar a API com o perfil de container Docker.
 
 ### 3. Crie o contêiner do banco de dados PostgreSQL
 
-Volte para a raiz do projeto back-end (TaskListApp.Api) e execute:
+### 3.1 Volte para a raiz do projeto back-end (TaskListApp.Api) e execute:
 
 `docker run --name postgres-tasklist --network tasklist-network -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=thiagoTaskList -e POSTGRES_DB=TaskListDB -p 5432:5432 -d postgres`
 
 ### 4. Rode as migrations para criar as tabelas no banco
 
-Volte novamente para a pasta onde está o arquivo .csproj da API:
+### 4.1 Volte novamente para a pasta onde está o .csproj da API:
+
+`cd .\TaskListApp\ ` 
+
+### 4.2 Vá ate o arquivo appsettings.json localizado no TaskListApp e modifique a Host do DefaultConnection para Host=localhost, depois de salvado. 
+### Execute:
 
 `dotnet ef database update`
-
 
 ### 5. (Opcional) Acesse o banco de dados manualmente, dentro da pasta do back-end TaskListApp.Api execute
 
@@ -104,12 +108,3 @@ Volte para a raiz do projeto e acesse a pasta do front-end:
 Com todos os contêineres rodando, abra o navegador e acesse:
 
 `http://localhost:4200`
-
----
-
-Atenção: 
-caso ocorra erro relacionado ao host do banco de dados, edite a string de conexão DefaultConnection no arquivo appsettings.json. 
-Altere o valor de Host=... conforme o ambiente:
-
-Use Host=localhost se estiver executando o projeto localmente, com o PostgreSQL instalado na sua máquina.
-Use Host=postgres-tasklist se estiver rodando o projeto via Docker, pois postgres-tasklist é o nome do container do banco de dados definido no docker.
