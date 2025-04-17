@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1582EAC5-C41E-484F-BDDF-FCE1935FE432}|TaskListApp\\TaskList.Api.csproj|c:\\users\\thiag\\source\\repos\\tasklistapp\\tasklistapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1582EAC5-C41E-484F-BDDF-FCE1935FE432}|TaskListApp\\TaskList.Api.csproj|solutionrelative:tasklistapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47FBEF0-6169-4AD8-BB53-8E49317612D0}|TaskListApp.Infrastructure\\TaskListApp.Infrastructure.csproj|c:\\users\\thiag\\source\\repos\\tasklistapp\\tasklistapp.infrastructure\\migrations\\tasklistdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47FBEF0-6169-4AD8-BB53-8E49317612D0}|TaskListApp.Infrastructure\\TaskListApp.Infrastructure.csproj|solutionrelative:tasklistapp.infrastructure\\migrations\\tasklistdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47FBEF0-6169-4AD8-BB53-8E49317612D0}|TaskListApp.Infrastructure\\TaskListApp.Infrastructure.csproj|c:\\users\\thiag\\source\\repos\\tasklistapp\\tasklistapp.infrastructure\\migrations\\20250415180906_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47FBEF0-6169-4AD8-BB53-8E49317612D0}|TaskListApp.Infrastructure\\TaskListApp.Infrastructure.csproj|solutionrelative:tasklistapp.infrastructure\\migrations\\20250415180906_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1582EAC5-C41E-484F-BDDF-FCE1935FE432}|TaskListApp\\TaskList.Api.csproj|c:\\users\\thiag\\source\\repos\\tasklistapp\\tasklistapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1582EAC5-C41E-484F-BDDF-FCE1935FE432}|TaskListApp\\TaskList.Api.csproj|solutionrelative:tasklistapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1582EAC5-C41E-484F-BDDF-FCE1935FE432}|TaskListApp\\TaskList.Api.csproj|c:\\users\\thiag\\source\\repos\\tasklistapp\\tasklistapp\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1582EAC5-C41E-484F-BDDF-FCE1935FE432}|TaskListApp\\TaskList.Api.csproj|solutionrelative:tasklistapp\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0FD66A-217F-4E8D-83EE-A6DD8DE94717}|TaskListApp.Aplication\\TaskListApp.Application.csproj|c:\\users\\thiag\\source\\repos\\tasklistapp\\tasklistapp.aplication\\dtos\\request\\taskitemrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0FD66A-217F-4E8D-83EE-A6DD8DE94717}|TaskListApp.Aplication\\TaskListApp.Application.csproj|solutionrelative:tasklistapp.aplication\\dtos\\request\\taskitemrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1582EAC5-C41E-484F-BDDF-FCE1935FE432}|TaskListApp\\TaskList.Api.csproj|c:\\users\\thiag\\source\\repos\\tasklistapp\\tasklistapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1582EAC5-C41E-484F-BDDF-FCE1935FE432}|TaskListApp\\TaskList.Api.csproj|solutionrelative:tasklistapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5723FDE3-3C1D-4AC9-B528-393BBB004946}|TaskListApp.Domain\\TaskListApp.Domain.csproj|c:\\users\\thiag\\source\\repos\\tasklistapp\\tasklistapp.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5723FDE3-3C1D-4AC9-B528-393BBB004946}|TaskListApp.Domain\\TaskListApp.Domain.csproj|solutionrelative:tasklistapp.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0FD66A-217F-4E8D-83EE-A6DD8DE94717}|TaskListApp.Aplication\\TaskListApp.Application.csproj|c:\\users\\thiag\\source\\repos\\tasklistapp\\tasklistapp.aplication\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0FD66A-217F-4E8D-83EE-A6DD8DE94717}|TaskListApp.Aplication\\TaskListApp.Application.csproj|solutionrelative:tasklistapp.aplication\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1582EAC5-C41E-484F-BDDF-FCE1935FE432}|TaskListApp\\TaskList.Api.csproj|c:\\users\\thiag\\source\\repos\\tasklistapp\\tasklistapp\\tasklist.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1582EAC5-C41E-484F-BDDF-FCE1935FE432}|TaskListApp\\TaskList.Api.csproj|solutionrelative:tasklistapp\\tasklist.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0FD66A-217F-4E8D-83EE-A6DD8DE94717}|TaskListApp.Aplication\\TaskListApp.Application.csproj|c:\\users\\thiag\\source\\repos\\tasklistapp\\tasklistapp.aplication\\tasklistapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA0FD66A-217F-4E8D-83EE-A6DD8DE94717}|TaskListApp.Aplication\\TaskListApp.Application.csproj|solutionrelative:tasklistapp.aplication\\tasklistapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47FBEF0-6169-4AD8-BB53-8E49317612D0}|TaskListApp.Infrastructure\\TaskListApp.Infrastructure.csproj|c:\\users\\thiag\\source\\repos\\tasklistapp\\tasklistapp.infrastructure\\data\\tasklistdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47FBEF0-6169-4AD8-BB53-8E49317612D0}|TaskListApp.Infrastructure\\TaskListApp.Infrastructure.csproj|solutionrelative:tasklistapp.infrastructure\\data\\tasklistdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Infrastructure\\Migrations\\20250415180737_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TaskListApp.Infrastructure\\Migrations\\20250415180737_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskListDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Infrastructure\\Migrations\\TaskListDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TaskListApp.Infrastructure\\Migrations\\TaskListDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Infrastructure\\Migrations\\TaskListDbContextModelSnapshot.cs",
+              "RelativeToolTip": "TaskListApp.Infrastructure\\Migrations\\TaskListDbContextModelSnapshot.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T04:09:31.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskListApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp\\appsettings.json",
+              "RelativeToolTip": "TaskListApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T03:49:12.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TaskListApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TaskListApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA2wBoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T03:14:41.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Domain\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskListApp.Domain\\Entities\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Domain\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "TaskListApp.Domain\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T00:19:57.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskItemRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Aplication\\Dtos\\Request\\TaskItemRequestDto.cs",
+              "RelativeDocumentMoniker": "TaskListApp.Aplication\\Dtos\\Request\\TaskItemRequestDto.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Aplication\\Dtos\\Request\\TaskItemRequestDto.cs",
+              "RelativeToolTip": "TaskListApp.Aplication\\Dtos\\Request\\TaskItemRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T23:23:13.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskList.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp\\TaskList.Api.csproj",
+              "RelativeDocumentMoniker": "TaskListApp\\TaskList.Api.csproj",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp\\TaskList.Api.csproj",
+              "RelativeToolTip": "TaskListApp\\TaskList.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-16T23:20:48.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskListApp.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Aplication\\TaskListApp.Application.csproj",
+              "RelativeDocumentMoniker": "TaskListApp.Aplication\\TaskListApp.Application.csproj",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Aplication\\TaskListApp.Application.csproj",
+              "RelativeToolTip": "TaskListApp.Aplication\\TaskListApp.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-16T23:20:46.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp\\Program.cs",
+              "RelativeDocumentMoniker": "TaskListApp\\Program.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp\\Program.cs",
+              "RelativeToolTip": "TaskListApp\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T22:02:55.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "TaskListApp\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "TaskListApp\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAqwHUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:12:12.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskItemService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Aplication\\Services\\TaskItemService.cs",
+              "RelativeDocumentMoniker": "TaskListApp.Aplication\\Services\\TaskItemService.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Aplication\\Services\\TaskItemService.cs",
+              "RelativeToolTip": "TaskListApp.Aplication\\Services\\TaskItemService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswC8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:12:12.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250415180906_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Infrastructure\\Migrations\\20250415180906_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TaskListApp.Infrastructure\\Migrations\\20250415180906_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Infrastructure\\Migrations\\20250415180906_InitialCreate.cs",
+              "RelativeToolTip": "TaskListApp.Infrastructure\\Migrations\\20250415180906_InitialCreate.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA3wBgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:09:06.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskListDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Infrastructure\\Data\\TaskListDbContext.cs",
+              "RelativeDocumentMoniker": "TaskListApp.Infrastructure\\Data\\TaskListDbContext.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Infrastructure\\Data\\TaskListDbContext.cs",
+              "RelativeToolTip": "TaskListApp.Infrastructure\\Data\\TaskListDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:08:32.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250415180737_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Infrastructure\\Migrations\\20250415180737_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TaskListApp.Infrastructure\\Migrations\\20250415180737_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\TaskListApp\\TaskListApp.Infrastructure\\Migrations\\20250415180737_InitialCreate.cs",
+              "RelativeToolTip": "TaskListApp.Infrastructure\\Migrations\\20250415180737_InitialCreate.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:07:37.729Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

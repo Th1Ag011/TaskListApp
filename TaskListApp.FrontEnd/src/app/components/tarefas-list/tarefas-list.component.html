@@ -1,0 +1,119 @@
+<div class="container mt-4">
+    <header class="d-flex justify-content-between align-items-center mb-3 pb-5 pt-5">
+        <h2>Lista de Tarefas</h2>
+        <button class="btn btn-primary" (click)="abrirModalCriar()">Nova Tarefa</button>
+    </header>
+
+
+    <div class="d-flex align-items-center pb-5">
+        <label for="statusFiltro" class="me-2 fw-bold">Filtrar por Status:</label>
+        <select id="statusFiltro" [(ngModel)]="statusFiltro" (change)="filtrarPorStatus()"
+            class="form-select d-inline-block w-auto">
+            <option value="">-- Selecione --</option>
+            <option *ngFor="let s of listaStatus" [value]="s.value">{{ s.label }}</option>
+        </select>
+    </div>
+
+    <div *ngIf="tarefas.length === 0" class="alert alert-warning text-center" role="alert">
+        <strong>Nenhuma tarefa encontrada.</strong>
+    </div>
+
+    <table class="table table-secondary" *ngIf="tarefas.length > 0">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Status</th>
+                <th>Prioridade</th>
+                <th>Data de Entrega</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let t of tarefas">
+                <td>{{ t.name }}</td>
+                <td>{{ converterStatus(t.status) }}</td>
+                <td>{{ converterPriority(t.priority) }}</td>
+                <td>{{ t.dueDate | date:'dd/MM/yyyy' }}</td>
+                <td>
+                    <button class="btn btn-info btn-sm me-1" (click)="abrirModalDetalhes(t)">Detalhes</button>
+                    <button class="btn btn-warning btn-sm me-1" (click)="abrirModalEditar(t)">Editar</button>
+                    <button class="btn btn-danger btn-sm" (click)="confirmarExclusao(t.id)">Excluir</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="modal fade" id="modalCriar" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Nova Tarefa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <app-tarefa-form (fechar)="fecharModalCriar()"  (successMessage)="onSuccessMessage($event)" 
+                (errorMessage)="onErrorMessage($event)"></app-tarefa-form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalEditar" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Editar Tarefa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <app-tarefa-form [tarefaEdicao]="tarefaSelecionada"
+                    (fechar)="fecharModalEditar()" (successMessage)="onSuccessMessage($event)"
+                    (errorMessage)="onErrorMessage($event)">
+                </app-tarefa-form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalDetalhes" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Detalhes da Tarefa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <app-tarefa-detalhes [tarefa]="tarefaSelecionada"></app-tarefa-detalhes>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalConfirmarExclusao" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Confirmar Exclusão</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Tem certeza que deseja excluir esta tarefa?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-danger" (click)="excluirTarefa()">Excluir</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1050;">
+    <div *ngIf="successMessage" class="alert alert-success" role="alert">
+        {{ successMessage }}
+    </div>
+
+    <div *ngIf="errorMessage" class="alert alert-danger" role="alert">
+        {{ errorMessage }}
+    </div>
+</div>

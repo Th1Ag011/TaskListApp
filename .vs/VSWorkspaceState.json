@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TaskListApp",
+    "\\TaskListApp.Aplication",
+    "\\TaskListApp.Aplication\\Dtos",
+    "\\TaskListApp.Aplication\\Dtos\\Request",
+    "\\TaskListApp.Domain",
+    "\\TaskListApp.Infrastructure"
+  ],
+  "SelectedNode": "\\TaskListApp.Aplication\\Dtos\\Request\\TaskItemRequestDto.cs",
+  "PreviewInSolutionExplorer": false
+}

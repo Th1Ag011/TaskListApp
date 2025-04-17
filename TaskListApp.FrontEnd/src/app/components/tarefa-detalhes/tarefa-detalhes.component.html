@@ -1,0 +1,9 @@
+<div *ngIf="tarefa">
+    <p><strong>Nome:</strong> {{ tarefa.name }}</p>
+    <p><strong>Descrição:</strong> {{ tarefa.description }}</p>
+    <p><strong>Status:</strong> {{ getStatusLabel(tarefa.status) }}</p>
+    <p><strong>Prioridade:</strong> {{ getPriorityLabel(tarefa.priority) }}</p>
+    <p><strong>Criada em:</strong> {{ tarefa.createdAt | date:'dd/MM/yyyy HH:mm' }}</p>
+    <p><strong>Data de Entrega:</strong> {{ tarefa.dueDate | date:'dd/MM/yyyy' }}</p>
+  </div>
+  

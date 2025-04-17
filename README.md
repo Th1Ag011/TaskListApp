@@ -37,9 +37,7 @@ Docker orquestra os três serviços para um setup rápido e reprodutível.
 
 Siga o passo a passo abaixo para rodar o projeto completo (back-end, banco de dados e front-end) utilizando Docker.
 
-### 0. Criar rede Docker (necessário para que os containers se comuniquem)
-
-Antes de subir os containers do banco e da API, crie a rede compartilhada:
+### 0. Criar rede Docker (necessário para que os containers se comuniquem) - Abra o terminal e execute:
 
 `docker network create tasklist-network`
 
@@ -50,29 +48,34 @@ Antes de subir os containers do banco e da API, crie a rede compartilhada:
 
 ### 2. Gere a imagem Docker do back-end
 
-Entre na pasta do projeto back-end e publique a imagem com o perfil de container configurado:
+Agora, vamos compilar e publicar a API com o perfil de container Docker.
 
+### 2.1 Acesse a pasta onde está o projeto da API:
+`cd TaskListApp.Api` 
+
+### 2.2 Entre na subpasta onde está o arquivo .csproj da API:
 `cd TaskListApp`
-`dotnet publish -p:PublishProfile=DefaultContainer`
 
-### 2.1 Execute o contêiner do back-end:
+### 2.3 Gere a imagem Docker do back-end
+`dotnet publish -p:PublishProfile=DefaultContainer` 
 
+### 2.4 Execute o contêiner do back-end:
 `docker run --name tasklist-backend --network tasklist-network -p 7054:8080 tasklist-api:latest`
 
 ### 3. Crie o contêiner do banco de dados PostgreSQL
 
-Volte para a raiz do projeto (TaskListApp) e execute o comando abaixo para iniciar o banco:
+Volte para a raiz do projeto back-end (TaskListApp.Api) e execute:
 
 `docker run --name postgres-tasklist --network tasklist-network -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=thiagoTaskList -e POSTGRES_DB=TaskListDB -p 5432:5432 -d postgres`
 
 ### 4. Rode as migrations para criar as tabelas no banco
 
-Volte para a pasta do back-end `cd TaskListApp` e execute:
+Volte novamente para a pasta onde está o arquivo .csproj da API:
 
 `dotnet ef database update`
 
 
-### 5. (Opcional) Acesse o banco de dados manualmente, dentro da pasta do back-end rode
+### 5. (Opcional) Acesse o banco de dados manualmente, dentro da pasta do back-end TaskListApp.Api execute
 
 `docker exec -it postgres-tasklist psql -U postgres -d TaskListDB`
 
@@ -82,17 +85,17 @@ Volte para a pasta do back-end `cd TaskListApp` e execute:
 ### 5.2 Consultar registros:
 `SELECT * FROM "Tasks";`
 
-### 6.0 Gere e execute a imagem do front-end (Angular)
+### 6.0 Gere e execute a imagem do front-end
 
-Acesse a pasta do front-end:
+Volte para a raiz do projeto e acesse a pasta do front-end:
 
 `cd ../TaskListApp.FrontEnd`
 
-### 6.1 Crie a imagem:
+### 6.1 Crie a imagem Docker do front-end:
 
 `docker build -t tasklist-frontend .`
 
-### 6.2 Execute o contêiner:
+### 6.3 Execute o contêiner do front:
 
 `docker run -p 4200:4200 --name tasklist-frontend tasklist-frontend`
 
